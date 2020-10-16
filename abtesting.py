@@ -9,21 +9,23 @@ print(t_dist.cdf(2, 20)) # positive t-score (bad), should print .97036 (= 1 - .2
 print(chi2.cdf(23.6, 12)) # prints 0.976
 print(1 - chi2.cdf(23.6, 12)) # prints 1 - 0.976 = 0.023 (yay!)
 
-#TODO: Fill in the following functions! Be sure to delete "pass" when you want to use/run a function!
+# TODO: Fill in the following functions! Be sure to delete "pass" when you want to use/run a function!
+# NOTE: You should not be using any outside libraries or functions other than the simple operators (+, **, etc)
+# and the specifically mentioned functions.
 
-def get_avg(list):
+def get_avg(nums):
     '''
     Helper function for calculating the average of a list of numbers.
-    :param list: list of numbers
+    :param nums: list of numbers
     :return: average of list
     '''
     #TODO: fill me in!
     pass
 
-def get_stdev(list):
+def get_stdev(nums):
     '''
     Helper function for calculating the standard deviation of a list of numbers.
-    :param list: list of numbers
+    :param nums: list of numbers
     :return: standard deviation of list
     '''
     #TODO: fill me in!
